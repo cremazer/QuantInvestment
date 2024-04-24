@@ -29,3 +29,11 @@ print(regr)
 
 # check correlation coefficients
 print(df.corr())
+
+# check the correlation coefficient between the Dow Jones and KOSPI indices
+r_value = df['Dow Jones'].corr(df['KOSPI'])
+print(r_value)
+
+# check the coefficient of determination between the Dow Jones and KOSPI indices
+r_squared = r_value ** 2
+print(r_squared)
