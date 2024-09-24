@@ -25,3 +25,11 @@ Install the "requirements.txt" file in the terminal with the command below.
 ```bash 
 pip3 install -r requirements.txt
 ```
+
+pytest installed in the requirements.txt file is a testing tool. You can run the test with the command below.
+
+```bash
+pip install pytest
+```
+
+- [python code reviewer with ChatGPT](https://chatgpt.com/g/g-II5uhjuCf-python-code-reviewer)
