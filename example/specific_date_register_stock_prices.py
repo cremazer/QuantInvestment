@@ -7,7 +7,6 @@ from zoneinfo import ZoneInfo  # Python 3.9 이상에서 사용할 수 있는 �
 import time
 import random
 import requests
-from bs4 import BeautifulSoup
 import pandas as pd
 from io import StringIO
 import os
